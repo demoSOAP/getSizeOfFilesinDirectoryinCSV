@@ -14,7 +14,7 @@ public class Demo {
 	private static List<String> Al= new ArrayList<String>();
 	public static void demodemo(List<String> extraFiles) throws FileNotFoundException, UnsupportedEncodingException
 	{
-		PrintWriter writer = new PrintWriter("C://rakesh//demo"+".txt", "UTF-8");
+		PrintWriter writer = new PrintWriter("Your Path to write files"+".txt", "UTF-8");
 	  	   for (String object: extraFiles)
 	  	   {
 	  		   writer.println(object);
@@ -50,7 +50,7 @@ public class Demo {
 	
 	public static void main(String args[]) throws IOException, InterruptedException
 	{
-		String str="C:\\Program Files\\Adobe\\Adobe Dreamweaver CC (2017 Beta)-9148";  
+		String str="Your dirctory where you want to get details";  
 		Demo.legend(str);
 		demodemo(Al);
 		
